@@ -1,0 +1,335 @@
+<html>
+
+<title>
+Auraj Joias
+</title>
+<meta charset="utf-8">
+<style>
+			
+*{
+	margin:0;
+	padding:0;
+}
+
+.base{
+background-color: black;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;
+}
+.imagem{
+	height: 350px;
+	width: 350px;
+	background-position: center;
+	background-size:100%;
+	background: url(alianca1.png);
+	cursor: zoom-in;
+}
+.imagem:hover{
+	background-size: 150%;
+	background-position: center;
+}
+
+.menu {
+position: fixed;
+width: 100%;
+height: 7%;
+left: 0;
+top: 0;
+background: black;
+}	
+
+.menu2 {
+position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+background-color: #e9e9e9;
+margin-top: 125px;
+}	
+
+</style>																														
+		<div class="menu">				
+			<table width="100%" height="5%">
+				<tr>
+					<td width="20%" height="25%">
+						<p align="center">		
+							<font size="3" color="white">					
+							Certificado de Garantia Ouro 18K
+							</font>
+						</p>
+					</td>
+					
+					<td width="20%" height="25%">
+						<p align="center">				
+							<font size="3" color="white">					
+							Frete Grátis Para Todo o Brasil
+							</font>
+						</p>				
+					</td>
+					
+					<td width="25%" height="25%">			
+						<p align="center">				
+							<font size="3" color="white">					
+							10% de Desconto No Boleto
+							</font>
+						</p>				
+					</td>
+					
+					<td width="25%" height="25%">			
+						<p align="center">	
+							<font size="3" color="white">					
+							12x Sem Juros no Cartão de Crédito
+							</font>
+						</p>			
+					</td>						
+				</tr>	
+			</table>
+	
+	
+			<hr height="100%" width="99%" color="white">         		
+
+																			
+			<table width="100%" height="5%" bgcolor="black">					
+				<tr>
+					<td align="left">
+						<a href="http://localhost/PROJETO/auraj.html"> <img src="auraj.jpg" width="300px" height="100px"> </a>
+					</td>
+					
+					
+				
+				
+				<td>
+					<p align="left">
+						<a href="http://api.whatsapp.com/send?phone=5541995265608">
+						<font color="white" SIZE="6"> FALE CONOSCO </font> <img width="25" height="25" src="whatsapppb.png"> 
+						</a>
+					</p>
+				</td>
+
+
+
+				<TD>
+					<a href="http://localhost/PROJETO/usuarioa.php">
+						<img width="30" height="30" src="login.png" align="LEFT">
+					</a>
+				</TD>
+				
+				
+				</tr>				
+			</table>
+		</div>
+	
+																						
+				<div class="menu2">
+				<table width="100%" height="5%" align="CENTER">
+				<tr>
+					<td>					
+							<p align="CENTER">
+								<a href="aliancas.html"> <font color="BLACK" size="4"> Alianças </font> </a>
+							</p>					
+					</td>
+			
+					<td>
+						<font color="BLACK" size="4">
+							<p align="CENTER">
+							<a href="aneis.html"> <font color="BLACK" size="4"> Anéis </font>  </a>
+							</p>
+						</font>
+					</td>
+			
+					<td>
+						<font color="BLACK" size="4">
+							<p align="CENTER">
+							<a href="braceletes.html"> <font color="BLACK" size="4"> Braceletes </font> </a>
+							</p>
+						</font>
+					</td>
+				
+					<td>
+						<font color="BLACK" size="4">
+							<p align="CENTER">					
+							<a href="brincos.html"> <font color="BLACK" size="4"> Brincos </font> </a>
+							</p>
+						</font>
+					</td>
+			
+					<td>
+						<font color="BLACK" size="4">
+							<p align="CENTER">					
+							<a href="conjuntos.html"> <font color="BLACK" size="4"> Conjuntos </font> </a>
+							</p>
+						</font>
+					</td>
+			
+					<td>
+						<font color="BLACK" size="4">
+							<p align="CENTER">					
+							<a href="correntes.html"> <font color="BLACK" size="4"> Correntes </font> </a>
+							</p>
+						</font>
+					</td>
+			
+					<td>
+						<font color="BLACK" size="4">
+							<p align="CENTER">					
+							<a href="escapularios.html"> <font color="BLACK" size="4"> Escapulários </font> </a>
+							</p>
+						</font>
+					</td>
+			
+					<td>
+						<font color="BLACK" size="4">
+							<p align="CENTER">					
+							<a href="pingentes.html"> <font color="BLACK" size="4"> Pingentes </font> </a>
+							</p>
+						</font>
+					</td>
+			
+					<td>
+						<font color="BLACK" size="4">
+							<p align="CENTER">					
+							<a href="pulseiras.html"> <font color="BLACK" size="4"> Pulseiras </font> </a>
+							</p>
+						</font>
+					</td>
+			
+				</tr>
+				</table>	
+				</div>	
+
+
+				
+			<div class="container">
+				<div class="imagem"></div>	
+				 <form name="pedidocompra" action="gravar1.php" method="POST">
+					
+					<label> Nome da Joia </label>					
+					<select name="nomeproduto" type="text"> <option value="Aliança">Aliança</option> </select>
+					<select name="nomecat" type="varchar"> <option value="Casamento em Ouro 18k 2mm Finas Tradicionais com 1 Diamante"> Casamento em Ouro 18k 2mm Finas Tradicionais com 1 Diamante</option> </select>			
+					<label> Valor </label>
+					<select name="valor" type="text" required>
+					<option value="1x R$ 1299,90">R$ 1.299,90</option> </select>
+					
+					<br>			
+					<br>
+					<label> Data hoje </label>
+					<input type="date" name="data">	
+					<br>
+					<br>
+					
+					Qual medida da joia?
+					<select name="tamanho" type="int" required>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>					
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>	
+					<option value="28">28</option>
+					<option value="29">29</option>
+					<option value="30">30</option>
+					<option value="31">31</option>
+					<option value="32">32</option>
+					<option value="33">33</option>	
+					<option value="34">34</option>
+					<option value="35">35</option>	
+					</select>
+					
+					<br><br>
+					
+					Quantidade
+					<select name="quantidade" type="int" required>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>					
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>	
+					</select>				
+					<br><br>
+					
+					<input type="textarea" name="observacao" size="50" width="5" placeholder="Digite aqui sua observação">	
+					<Br>
+													
+														
+						<td align ="center" bgcolor="black"> <br> 
+							<input type="submit" name="comprar" value="Comprar">
+							<input type="reset" name="limpar" value="Limpar"><br>							
+						<br>
+						</td>
+					</tr>
+				  </form>
+			</div>
+																																						
+			
+		<div class="base">			
+			<table width="100%" height="10%">
+				<tr>
+				<td>					
+						<b> <font color="white"> Intitucional </font> </b>
+						<br> <br>
+						<a href="quemsomos.html"> <font color="white"> Quem somos </font> </a> <br> 
+						<a href="garantia.html"> <font color="white"> Garantia </font> </a> <br> 
+						<a href="duvidasfrequentes.html"> <font color="white"> Duvidas frequentes </font> </a> <BR>
+						<a href="entregasegura.html"> <font color="white"> Entrega segura </font> </a>
+				</td>
+				<td valign="top">
+				<font color="white">					
+						<b> Sobre a auraj </b> </font>	
+						<br> <br>
+						<a href="missao.html"> <font color="white"> Missão </font> </a> <br>
+						<a href="visao.html"> <font color="white"> Visão </font> </a> <br>
+						<a href="valores.html"> <font color="white"> Valores </font> </a> <BR>						
+				</td>
+
+				<td valign="top">
+				<font color="white">				
+						<b> Formas de pagamento </b> 
+						<br>
+						<br>
+						<img width="250" height="80" src="bandeiras-cartoes.png" align="center">
+	
+				</font>
+				</td>		
+
+
+				<td valign="top">
+				<font color="white">					
+						<b> Nossas redes sociais </b>
+						<br>
+						<br>
+						<a href="https://www.facebook.com/Auraj-955487968173322/"> <img width="30" height="30" src="facebook.png" align="center"> </a>	
+						<a href="https://www.instagram.com/auraj.joias/"> <img width="30" height="30" src="instagram.png" align="center"> </a>	
+						<a href="http://api.whatsapp.com/send?phone=5541995265608"> <img width="30" height="30" src="whatsapp.png" align="center"> </a>
+				</font>
+				</td>
+				</tr>
+			</table>
+		</div>	
+	
+</html>
